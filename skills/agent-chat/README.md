@@ -1,5 +1,11 @@
 # Agent Chat · 保留当前会话的多角色讨论
 
+> **项目已迁移为 [Meet（agent-meet）](https://github.com/iuyaa/agent-meet)。**
+> 后续代码、问题反馈及安装包统一在独立仓库维护，本目录保留迁移前的历史版本。
+> [下载 Meet v0.8.1](https://github.com/iuyaa/agent-meet/raw/refs/heads/main/releases/agent-meet-v0.8.1.zip)，
+> 技能调用名改为 `$agent-meet`。更新时完整保留原讨论数据库及同名前缀状态目录，
+> 继续使用原房间和角色会话。详见[迁移说明](https://github.com/iuyaa/agent-meet/blob/main/MIGRATION.md)。
+
 在已经聊了很久的 Codex、Claude Code、pi 或 OpenCode 会话里，邀请其它 agent 讨论。
 **谁发起，谁保留当前会话和上下文、担任主持人。** 被邀请者逐轮回复，主持人结合原有背景
 追问、判断和总结；后续调用及追加讨论恢复各参与者原来的原生会话。
